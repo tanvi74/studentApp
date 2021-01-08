@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  background: #36D1DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
 }
 
 .App-logo {
@@ -35,4 +43,57 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.btn-large , .btn-large:hover {
+  background-color: #282c34;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.btn-small , .btn-small:hover{
+  background-color: #282c34;
+  border-radius: 5px;
+}
+h3{
+  font-size: 80px;
+  font-style: italic;
+  font-weight: 600;
+  font-family: 'Acme', sans-serif;
+}
+
+.card{
+  border-radius: 10px;
+}
+
+.allNotes{
+  color: black;
+  font-family: 'Satisfy', cursive;
+}
+
+.heading{
+   font-size: 35px;
+   
+}
+
+.desc{
+  font-size: 30px;
+  font-family: 'Amiri', serif;
+}
+
+.deleteBtn{
+  background-color: red;
+}
+
+.editBtn{
+  background-color: darkslateblue;
+}
+
+.typeBtn{
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.heading123{
+  font-weight: 600;
+  font-size: 30px;
 }
